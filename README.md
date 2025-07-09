@@ -6,10 +6,11 @@ A collection of Python-based web scrapers tailored to Nepal-specific websites fo
 
 ## 🧩 Features
 
-- 🔍 Paginated scraping for:
+- 🔍 Static scraping for:
   - Tech companies (TechBehemoths)
+- 🔍 Paginated scraping for:
   - Schools in Kathmandu (EduSanjal)
-- 🔁 Infinite scroll scraping for:
+- 🔁 Infitine/Lazy-Loading scraping for:
   - Schools in Lalitpur (CollegeNP)
 - 📄 Clean Excel output using `pandas`
 - ⚙️ Modular, well-commented, and extensible codebase
@@ -112,7 +113,7 @@ python scrapping_for_lazyloading.py
 - Detects pagination and follows "Next" links
 - Parses HTML to extract structured data
 
-### 🔄 Infinite Scroll Scraper (CollegeNP)
+### 🔄 Infinite/Lazy-Loading Scroll Scraper (CollegeNP)
 
 - Uses `Selenium` WebDriver
 - Simulates browser scroll to load content
