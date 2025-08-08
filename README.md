@@ -26,24 +26,6 @@ Install dependencies with:
 pip install -r requirements.txt
 ```
 
-### 🧾 `requirements.txt`
-
-```text
-beautifulsoup4==4.13.4
-certifi==2025.7.9
-charset-normalizer==3.4.2
-idna==3.10
-numpy==2.3.1
-pandas==2.3.1
-python-dateutil==2.9.0.post0
-pytz==2025.2
-requests==2.32.4
-six==1.17.0
-soupsieve==2.7
-typing_extensions==4.14.1
-tzdata==2025.2
-urllib3==2.5.0
-```
 
 > ⚠️ **If using the lazyloading scrapping script**, make sure you also install:
 > 
@@ -83,19 +65,6 @@ python scrapping_for_lazyloading.py
 ```
 
 - **Output:** `Schools_in_lalitpur.xlsx`
-
----
-
-## 📁 Project Structure
-
-```text
-.
-├── static_page_scrapping.py        # Single-page scraper for company listings on TechBehemoths
-├── pagianted_scrapping.py          # Scrapes paginated schools from EduSanjal
-├── scrapping_for_lazyloading.py    # Scrapes lazy-loaded schools from CollegeNP using Selenium
-├── requirements.txt                # All Python dependencies
-└── README.md                       # This file
-```
 
 ---
 
